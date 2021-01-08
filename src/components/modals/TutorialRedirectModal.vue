@@ -10,6 +10,7 @@
             class="mr3"
             :onClick="close"
             :text="translations.actions.start"
+            :to="`/${tutorial.url}/01`"
           />
           <Button
             :click="close"

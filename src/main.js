@@ -5,8 +5,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueMeta from 'vue-meta'
 import VueTooltip from 'v-tooltip'
+import PortalVue from 'portal-vue'
 import VueHighlightJS from 'vue-highlight.js'
 import VueSelect from 'vue-select'
+
 import 'vue-select/dist/vue-select.css'
 import 'highlight.js/styles/github.css'
 
@@ -18,6 +20,7 @@ Vue
   .use(VueMeta, { keyName: 'head', refreshOnceOnNavigation: true })
   .use(VueHighlightJS)
   .use(VueTooltip)
+  .use(PortalVue)
 
 Vue.component('v-select', VueSelect)
 

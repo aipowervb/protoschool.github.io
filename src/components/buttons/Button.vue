@@ -48,7 +48,8 @@ export default {
 button {
   position: relative;
   opacity: 0.9;
-  min-width: 120px;
+  min-width: 7.5rem;
+  min-height: 2.5rem;
   box-shadow: inset 0 0 8px rgb(0 0 0 / 0%);
   outline: none;
 

@@ -55,6 +55,7 @@
           />
         </div>
       </div>
+
       <div class="mv3">
         <ButtonLink class="mb2 mr3" link="Events">
           View All Events

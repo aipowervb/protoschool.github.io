@@ -25,7 +25,7 @@ import CompleteIcon from '../static/images/complete.svg?inline'
 import InProgressIcon from '../static/images/in-progress.svg?inline'
 import NotStartedIcon from '../static/images/not-started.svg?inline'
 
-import TypeIcon from '../components/TypeIcon.vue'
+import TypeIcon from '../components/icons/TypeIcon.vue'
 
 export default {
   name: 'LessonLink',

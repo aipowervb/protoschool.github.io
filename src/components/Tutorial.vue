@@ -55,7 +55,7 @@
 
 <script>
 import LessonLink from '../components/LessonLink.vue'
-import TypeIcon from '../components/TypeIcon.vue'
+import TypeIcon from '../components/icons/TypeIcon.vue'
 import ProjectIcon from '../components/icons/ProjectIcon.vue'
 import TutorialMessage from '../components/callouts/TutorialMessage.vue'
 import { isTutorialPassed } from '../utils/tutorials'

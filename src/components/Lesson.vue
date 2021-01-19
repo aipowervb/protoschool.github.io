@@ -153,7 +153,7 @@ import Output from './Output.vue'
 import Info from './Info.vue'
 import Validator from './Validator.vue'
 import TutorialCompletionCallout from './callouts/TutorialCompletion.vue'
-import TypeIcon from './TypeIcon.vue'
+import TypeIcon from './icons/TypeIcon.vue'
 
 const MAX_EXEC_TIMEOUT = isProduction ? 10000 : 60000
 

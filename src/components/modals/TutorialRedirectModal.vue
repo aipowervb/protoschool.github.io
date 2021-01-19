@@ -4,7 +4,7 @@
     <div class="modal">
       <div class="modal-content pa4">
         <div class="f2 b mb4 lh-title">{{translations.title}}</div>
-        <p class="f4 lh-copy">{{translations.body}}</p>
+        <p class="f4 lh-copy">{{translations.body_1}}<span class="fw7">{{tutorial.title}}</span>{{tranlations.body_2}}<span class="fw7">"{{lesson.title}}</span>{{body_3}}</p>
         <div class="buttons flex justify-end mt5">
           <ButtonLink
             class="mr3"

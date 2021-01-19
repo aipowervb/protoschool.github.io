@@ -45,10 +45,12 @@
   "modals": {
     "tutorialRedirect": {
       "title": "Woah there, are you in the right place?",
-      "body": "It seems you landed in the middle of this tutorial. Would you like to start the tutorial from the beginning or view this lesson?",
+      "body_1": "You seem to have landed in the middle of our ",
+      "body_2": " tutorial. ProtoSchool's lessons are meant to be consumed in sequence as part of a tutorial. Would you like to start the tutorial from the beginning as recommended or view this lesson, ",
+      "body_3": ", out of context?",
       "actions": {
         "start": "Start tutorial",
-        "stay": "View this Lesson"
+        "stay": "View lesson"
       }
     }
   }

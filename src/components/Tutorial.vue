@@ -35,7 +35,7 @@
 
       <p class="f5 fw5 mt2 mb3 lh-copy charcoal-muted">{{tutorial.description}}</p>
       <TutorialMessage :tutorial="tutorial" class="mb4" />
-      <ul class="lessons-list mv2 pa0 f5 br3">
+      <ul class="lessons-list mv2 pa0 f5 br2">
         <template v-for="(lesson, index) in tutorial.lessons">
           <li :key="index">
             <LessonLink
